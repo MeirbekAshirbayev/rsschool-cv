@@ -1,3 +1,3 @@
 # rsschool-cv
-https://meirbekashirbayev.github.io/rsschool-cv/cv
-https://meirbekashirbayev.github.io/rsschool-cv/
+[Резюме md](https://meirbekashirbayev.github.io/rsschool-cv/cv)  
+[Резюме html and css](https://meirbekashirbayev.github.io/rsschool-cv/)
