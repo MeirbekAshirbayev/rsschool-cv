@@ -1,0 +1,163 @@
+/* Общие стили */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Стили для контейнеров */
+header,
+main,
+footer {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Стили для навигации */
+nav {
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 5px;
+}
+
+nav ul li a {
+  color: #2980b9;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ecf0f1;
+}
+
+/* Стили для заголовков и параграфов */
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+header p,
+main section,
+footer p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Стили для разделов */
+main section {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+main section:last-of-type {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 2em;
+  color: #2980b9;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #3498db;
+  margin-top: 15px;
+}
+
+/* Стили для списков */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Стили для примера кода */
+pre {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.4;
+}
+
+/* Стили для ссылок */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Стили для футера */
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
+
+footer img {
+  width: 50px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+/* Адаптивные стили */
+@media (max-width: 600px) {
+  header,
+  main,
+  footer {
+    width: 95%;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
